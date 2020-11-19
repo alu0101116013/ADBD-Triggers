@@ -37,7 +37,7 @@ ___
 
 
 ### Trigger de actualización de stock <a name="id2"></a>
--  Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/viveros.sql) contiene la creación del **trigger** sobre la BBDD de **Viveros**, que permite mantener actualizado el stock de los productos existentes, y proporcionar cierta información a los clientes a la hora de realizar el pedido. En caso de que el stock este por debajo del umbral, se lanzará un código de error SQL junto a un mensaje informativo
+-  Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/viveros.sql) contiene la creación del **trigger** sobre la BBDD de **Viveros**, que permite mantener actualizado el stock de los productos existentes, y proporcionar cierta información a los clientes a la hora de realizar el pedido. En caso de que el stock este por debajo del umbral, se lanzará un código de error SQL junto a un mensaje informativo.
 
 	![Imagen](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Screenshots/trigger_stock.png)
 
