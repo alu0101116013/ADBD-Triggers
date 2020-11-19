@@ -33,13 +33,13 @@ ___
 ### Trigger de verificación de una persona por vivienda <a name="id2"></a>
 - Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/catastro.sql) contiene la creación del **trigger** sobre la BBDD de **Catastro**, que permite verificar que las personas pertenecientes al catastro de un municipio, no puedan estar habitando en dos viviendas distintas.
 
-	![Imagen]()
+	![Imagen](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Screenshots/trigger_catastro.png)
 
 
 ### Trigger de actualización de stock <a name="id2"></a>
 -  Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/viveros.sql) contiene la creación del **trigger** sobre la BBDD de **Viveros**, que permite mantener actualizado el stock de los productos existentes, y proporcionar cierta información a los clientes a la hora de realizar el pedido.
 
-	![Imagen]()
+	![Imagen](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Screenshots/trigger_stock.png)
 
 
 ___
