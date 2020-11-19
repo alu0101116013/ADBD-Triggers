@@ -21,23 +21,23 @@ ___
 
 
 ### Procedimiento de Creación de Email y su correspondiente Trigger <a name="id1"></a>
-- Este [script]() contiene la creación del procedimiento de **email** sobre la BBDD de **Viveros**, que devuelve la dirección de correo electrónico con el formato establecido que se observa a continuación **(DNI+@+Dominio)**.
+- Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/viveros.sql) contiene la creación del procedimiento de **email** sobre la BBDD de **Viveros**, que devuelve la dirección de correo electrónico con el formato establecido que se observa a continuación **(DNI+@+Dominio)**.
 
-	![Imagen]()
+	![Imagen](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Screenshots/procedure_email.png)
 
 - Una vez creado dicha tabla, aplicamos un **trigger** sobre la tabla de Clientes, siempre ejecutada antes de una operación de inserción y se asigna un valor por defecto en caso de que el campo sea NULL o el establecido por el usuario.
 
-	![Imagen]()
+	![Imagen](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Screenshots/trigger_email.png)
 
 
 ### Trigger de verificación de una persona por vivienda <a name="id2"></a>
-- Este [script]() contiene la creación del **trigger** sobre la BBDD de **Catastro**, que permite verificar que las personas pertenecientes al catastro de un municipio, no puedan estar habitando en dos viviendas distintas.
+- Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/catastro.sql) contiene la creación del **trigger** sobre la BBDD de **Catastro**, que permite verificar que las personas pertenecientes al catastro de un municipio, no puedan estar habitando en dos viviendas distintas.
 
 	![Imagen]()
 
 
 ### Trigger de actualización de stock <a name="id2"></a>
--  Este [script]() contiene la creación del **trigger** sobre la BBDD de **Viveros**, que permite mantener actualizado el stock de los productos existentes, y proporcionar cierta información a los clientes a la hora de realizar el pedido.
+-  Este [script](https://github.com/alu0101116013/ADBD-Triggers/blob/main/Scripts%20SQL/viveros.sql) contiene la creación del **trigger** sobre la BBDD de **Viveros**, que permite mantener actualizado el stock de los productos existentes, y proporcionar cierta información a los clientes a la hora de realizar el pedido.
 
 	![Imagen]()
 
